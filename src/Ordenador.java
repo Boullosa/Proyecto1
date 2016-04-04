@@ -13,7 +13,7 @@ public class Ordenador {
   
  private   boolean ordenadorEncendido;
     
-//private      static final int garantia=2;
+private      static final int garantia=2;
      //Constructores  
     public Ordenador(){        
     }
@@ -51,11 +51,19 @@ public class Ordenador {
         System.out.println(pantalla);
         
     }
-//    static public void mostrarGarantia(){
-//         
-//       System.out.println("Todos los ordenadores tiene de  garantía: "+ garantia);
+    static public void mostrarGarantia(){
+         
+       System.out.println("Todos los ordenadores tiene de  garantía: "+ garantia);
 
 }
+
+    public String getPantalla() {
+        return pantalla;
+    }
+
+    public boolean isOrdenadorEncendido() {
+        return ordenadorEncendido;
+    }
 
     
 }
